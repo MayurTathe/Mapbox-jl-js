@@ -1,4 +1,4 @@
-# Location-Based Application
+<!-- # Location-Based Application
 
 ## Overview
 This application is a location-based web app built with ReactJS. It allows users to authenticate, view an interactive map with predefined markers, and access details about specific locations. Additionally, users can explore a list of movies fetched from an external API.
@@ -31,6 +31,63 @@ This application is a location-based web app built with ReactJS. It allows users
 ## Credits
 - Map data provided by Mapbox (https://www.mapbox.com/)
 - Movie data provided by DummyAPI (https://dummyapi.online/)
+- Movie data provided by DummyAPI (https://dummyapi.online/)
+- Movie data provided by DummyAPI (https://dummyapi.online/)
+- Movie data provided by DummyAPI (https://dummyapi.online/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. -->
+<!-- Title -->
+<h1 align="center">Location-Based Application</h1>
+
+<!-- Description -->
+<p align="center">A modern location-based application built with ReactJS, Mapbox GL, and more.</p>
+
+<!-- Demo -->
+<p align="center">
+  <img src="demo.gif" alt="Demo" width="80%">
+</p>
+
+<!-- Features -->
+<h2 align="center">Features</h2>
+
+<ul align="center">
+  <li><strong>Login Functionality:</strong> Secure authentication using local storage.</li>
+  <li><strong>Interactive Map:</strong> Integration with Mapbox GL for an interactive map experience.</li>
+  <li><strong>Marker Details:</strong> Display location details upon marker click.</li>
+  <li><strong>Movie Screen:</strong> Display movies fetched from an external API.</li>
+</ul>
+
+<!-- Installation -->
+<h2 align="center">Installation</h2>
+
+<pre>
+<code>git clone https://github.com/your_username/location-based-app.git</code>
+<code>cd location-based-app</code>
+<code>npm install</code>
+<code>npm start</code>
+</pre>
+
+<!-- Usage -->
+<h2 align="center">Usage</h2>
+
+<p align="center">
+  <strong>Login:</strong> Enter your credentials and click "Login".<br>
+  <strong>Map Screen:</strong> Explore the interactive map and click on markers for location details.<br>
+  <strong>Movies Screen:</strong> Navigate to the movies screen to see a list of movies.
+</p>
+
+<!-- Credits -->
+<h2 align="center">Credits</h2>
+
+<p align="center">
+  <a href="https://reactjs.org/">ReactJS</a>: For building the frontend interface.<br>
+  <a href="https://docs.mapbox.com/">Mapbox GL</a>: For providing the interactive mapping platform.<br>
+  YouTube: For tutorials and guidance during development.<br>
+  OpenAI GPT-3: For providing assistance and guidance through the development process.
+</p>
+
+<!-- License -->
+<h2 align="center">License</h2>
+
+<p align="center">Distributed under the MIT License. See <a href="LICENSE">LICENSE</a> for more information.</p>
