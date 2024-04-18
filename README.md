@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Location-Based Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This application is a location-based web app built with ReactJS. It allows users to authenticate, view an interactive map with predefined markers, and access details about specific locations. Additionally, users can explore a list of movies fetched from an external API.
 
-## Available Scripts
+## Features
+- **Login Functionality**: Users can log in using their credentials, with form validation for input fields. Authentication is managed using local storage, and authenticated users are redirected to the map screen.
+- **Map Screen**: Integrates Mapbox GL to display an interactive map with predefined markers. Clicking on a marker displays details about the corresponding location.
+- **Details Screen**: Provides information about a location when a user clicks on a marker on the map. Information such as coordinates and description is passed from the map screen.
+- **Movies Screen (Bonus)**: Makes an API call to https://dummyapi.online/api/movies to fetch a list of movies, which are displayed in the application interface.
 
-In the project directory, you can run:
+## Optional Bonus Features
+- **Form Validation**: Implemented client-side form validation to handle incorrect or empty inputs.
+- **Enhanced Map Screen**: Added additional features such as zoom controls, map styles, and search functionality to enhance the map viewing experience.
+- **Marker Editing**: Allowed users to edit or delete markers on the map, providing greater control over the displayed locations.
+- **Logout Functionality**: Implemented logout functionality to allow users to securely log out and clear local storage.
 
-### `npm start`
+## Installation
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- ReactJS
+- Mapbox GL
+- React Router
+- Axios (for API requests)
+- CSS (for styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Credits
+- Map data provided by Mapbox (https://www.mapbox.com/)
+- Movie data provided by DummyAPI (https://dummyapi.online/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

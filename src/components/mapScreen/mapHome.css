@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80vh;
+}
+
+#map {
+    width: 100%;
+    height: 80%;
+    margin-left: 10px;
+}
+.marker-properties{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+}
+
+.marker {
+    background-image: url('../../../public/mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.markerDetails {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.markerDetails p:first-child {
+    margin-top: 0;
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+        justify-content: space-between;
+        align-items: stretch;
+      }
+      #map {
+        width: 60%;
+        height: auto;
+      }
+      #marker-properties {
+        width: 35%;
+        margin-top: 0;
+      }
+} */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+#map,
+#marker-properties {
+    width: 100%;
+}
+
+#map {
+    height: 50%;
+}
+
+#marker-properties {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.markerDetails {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.markerDetails p {
+    margin: 5px 0;
+}
+
+.markerDetails p:first-child {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    #map {
+        width: 60%;
+        height: auto;
+    }
+
+    #marker-properties {
+        width: 35%;
+        margin-top: 0;
+    }
+} */

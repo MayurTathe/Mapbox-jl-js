@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    height: 50px;
+}
+
+@media (max-width: 767px) {
+    .navbar-left {
+        display: none;
+    }
+
+    .navbar-right,
+    .navbar-center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-right {
+        p {
+            display: none;
+        }
+    }
+    .nav-items {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navbar-left,
+.navbar-right {
+    flex: 1;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #3D3D3D;
+    background: #fff;
+    border: none;
+    /* box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.337); */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:hover {
+    box-shadow: 0px 0.5px 1px rgba(86, 82, 82, 0.1), 0px 0px 0px 3.5px rgba(110, 177, 192, 0.149);
+    /* color: #007bff; */
+    color: white;
+    outline: 0;
+}
+
+
+.navbar-center {
+    flex: 2;
+}
+
+.logo,
+.admin-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-item:hover {
+    color: #007bff;
+}
+
+.nav-item.active {
+    /* color: #007bff; */
+    text-decoration: underline;
+    /* Change color to highlight active link */
+    /* font-weight: bold; */
+    /* Optionally, make the font bold */
+}
