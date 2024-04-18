@@ -58,6 +58,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
   <li><strong>Movie Screen:</strong> Display movies fetched from an external API.</li>
 </ul>
 
+<!-- Technologies -->
+<h2 align="center">Technologies Used</h2>
+<ul align="center">
+  <li><strong>ReactJS</strong> Secure authentication using local storage.</li>
+  <li><strong>Mapbox GL</strong> Integration with Mapbox GL for an interactive map experience.</li>
+  <li><strong>React Router</strong> Display location details upon marker click.</li>
+  <li><strong>CSS (for styling)</strong> Display movies fetched from an external API.</li>
+</ul>
+
 <!-- Installation -->
 <h2 align="center">Installation</h2>
 
