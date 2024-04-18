@@ -49,6 +49,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
   <img src="demo.gif" alt="Demo" width="80%">
 </p>
 
+<!-- Live Link -->
+<h2 align="center">Live Link</h2>
+<p align="center"><a href="https://mapboxapitask.netlify.app/">View Live</a></p>
+
 <!-- Features -->
 <h2 align="center">Features</h2>
 
