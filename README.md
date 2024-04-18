@@ -42,6 +42,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <!-- Description -->
 <p align="center">A modern location-based application built with ReactJS, Mapbox GL, and more.</p>
+<p align="center"><strong>Live Demo:</strong><i>mapboxapitask.netlify.app</i></p>
 
 <!-- Demo -->
 <p align="center">
