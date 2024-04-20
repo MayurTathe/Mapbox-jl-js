@@ -1,3 +1,13 @@
+.headBar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: auto;
+align-items: center;
+padding: auto;
+margin-top: 5px;
+}
+
 .movies-list {
     display: grid;
     /* margin: 20px; */

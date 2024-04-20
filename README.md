@@ -59,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
   <li><strong>Login Functionality:</strong> Secure authentication using local storage.</li>
   <li><strong>Interactive Map:</strong> Integration with Mapbox GL for an interactive map experience.</li>
   <li><strong>Marker Details:</strong> Display location details upon marker click.</li>
-  <li><strong>Movie Screen:</strong> Display movies fetched from an external API.</li>
+  <li><strong>Movie Screen:</strong> Display movies fetched from an external API. Dynamic Search functionality added to search movies.</li>
 </ul>
 
 <!-- Technologies -->
@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 <p align="center">
   <strong>Login:</strong> Enter your credentials and click "Login".<br>
   <strong>Map Screen:</strong> Explore the interactive map and click on markers for location details.<br>
-  <strong>Movies Screen:</strong> Navigate to the movies screen to see a list of movies.
+  <strong>Movies Screen:</strong> Navigate to the movies screen to see a list of movies. Use the search bar to filter movies.
 </p>
 
 <!-- Credits -->

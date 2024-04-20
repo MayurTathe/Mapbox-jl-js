@@ -16,7 +16,7 @@ const Map = () => {
     })
 
   useEffect(() => {
-    mapboxgl.accessToken = 'Use Your API Key';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWF5dXJ0YXRoZSIsImEiOiJjbHYyZnFsaG4wZzFmMnJvcWZqNXJrZjNjIn0.QvpJk7JtJxuxMCx36nLAgA';
 
     const geojson = {
       'type': 'FeatureCollection',
@@ -114,8 +114,10 @@ const Map = () => {
   return <>
     <NavBar />
     <div className="container">
-      <div id="map" style={{ position: 'absolute', top: '15%', width: '45%' }}></div>
-      <div id="marker-properties" style={{ position: 'absolute', top: '15%', left: '50%', width: '45%', backgroundColor: '#fff', padding: '10px' }}>
+      {/* <div id="map" style={{ position: 'absolute', top: '15%', width: '45%' }}></div> */}
+      <div id="map"></div>
+      {/* <div id="marker-properties" style={{ position: 'absolute', top: '15%', left: '50%', width: '45%', backgroundColor: '#fff', padding: '10px' }}> */}
+      <div id="marker-properties" >
         <h2>Marker Properties</h2>
         <div className="markerDetails">
           {
